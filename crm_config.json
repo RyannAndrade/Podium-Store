@@ -1,0 +1,40 @@
+{
+    "PLATFORM": "hubspot",
+    "API_KEY": "your_api_key",
+    "PORTAL_ID": "your_portal_id",
+    "CONTACT_PROPERTIES": {
+        "CUSTOMER_TYPE": "customer_type",
+        "CUSTOMER_LEVEL": "customer_level",
+        "LAST_PURCHASE": "last_purchase",
+        "TOTAL_SPENT": "total_spent",
+        "PREFERRED_CATEGORY": "preferred_category"
+    },
+    "DEAL_PROPERTIES": {
+        "ORDER_ID": "order_id",
+        "ORDER_STATUS": "order_status",
+        "PAYMENT_METHOD": "payment_method",
+        "SHIPPING_METHOD": "shipping_method",
+        "ORDER_TOTAL": "order_total"
+    },
+    "AUTOMATION": {
+        "ENABLED": true,
+        "WORKFLOWS": [
+            "welcome_series",
+            "abandoned_cart",
+            "order_confirmation",
+            "customer_feedback"
+        ]
+    },
+    "INTEGRATION": {
+        "EMAIL": true,
+        "SMS": true,
+        "CHAT": true,
+        "SOCIAL_MEDIA": true
+    },
+    "REPORTING": {
+        "DAILY_REPORT": true,
+        "WEEKLY_REPORT": true,
+        "MONTHLY_REPORT": true,
+        "REPORT_EMAIL": "crm@podium-store.com"
+    }
+} 

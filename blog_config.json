@@ -1,0 +1,55 @@
+{
+    "PLATFORM": "wordpress",
+    "API_URL": "https://blog.podium-store.com/wp-json/wp/v2",
+    "API_KEY": "your_api_key",
+    "CATEGORIES": [
+        "tendencias",
+        "estilo",
+        "cultura",
+        "entrevistas",
+        "noticias"
+    ],
+    "POSTS": {
+        "PER_PAGE": 9,
+        "FEATURED_POSTS": 3,
+        "RELATED_POSTS": 3
+    },
+    "COMMENTS": {
+        "ENABLED": true,
+        "MODERATION": true,
+        "NOTIFICATION": true
+    },
+    "SEO": {
+        "META_DESCRIPTION": true,
+        "OPEN_GRAPH": true,
+        "TWITTER_CARDS": true,
+        "SCHEMA_MARKUP": true
+    },
+    "SOCIAL_SHARING": {
+        "ENABLED": true,
+        "PLATFORMS": [
+            "facebook",
+            "twitter",
+            "instagram",
+            "pinterest",
+            "whatsapp"
+        ]
+    },
+    "NEWSLETTER": {
+        "ENABLED": true,
+        "SIGNUP_FORM": true,
+        "POPUP": true,
+        "EXIT_INTENT": true
+    },
+    "AUTHORS": {
+        "DEFAULT_AVATAR": "/static/images/default-avatar.png",
+        "SHOW_BIO": true,
+        "SHOW_SOCIAL": true
+    },
+    "IMAGES": {
+        "FEATURED_SIZE": "1200x630",
+        "THUMBNAIL_SIZE": "300x200",
+        "QUALITY": 90,
+        "LAZY_LOAD": true
+    }
+} 

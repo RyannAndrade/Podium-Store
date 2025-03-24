@@ -1,0 +1,75 @@
+{
+    "CHAT": {
+        "PLATFORM": "intercom",
+        "APP_ID": "your_app_id",
+        "ENABLED": true,
+        "HOURS": {
+            "START": "09:00",
+            "END": "18:00",
+            "TIMEZONE": "America/Sao_Paulo"
+        },
+        "AGENTS": {
+            "MIN": 2,
+            "MAX": 5
+        }
+    },
+    "EMAIL": {
+        "ENABLED": true,
+        "ADDRESS": "suporte@podium-store.com",
+        "RESPONSE_TIME": "24h",
+        "TEMPLATES": {
+            "WELCOME": "welcome_email",
+            "TICKET_CREATED": "ticket_created",
+            "TICKET_UPDATED": "ticket_updated",
+            "TICKET_RESOLVED": "ticket_resolved"
+        }
+    },
+    "PHONE": {
+        "ENABLED": true,
+        "NUMBER": "(11) 1234-5678",
+        "HOURS": {
+            "START": "09:00",
+            "END": "18:00",
+            "TIMEZONE": "America/Sao_Paulo"
+        }
+    },
+    "FAQ": {
+        "ENABLED": true,
+        "CATEGORIES": [
+            "pedidos",
+            "pagamentos",
+            "envios",
+            "devolucoes",
+            "produtos"
+        ],
+        "ARTICLES_PER_PAGE": 10
+    },
+    "TICKET_SYSTEM": {
+        "PLATFORM": "zendesk",
+        "DOMAIN": "podium-store.zendesk.com",
+        "API_KEY": "your_api_key",
+        "PRIORITIES": [
+            "baixa",
+            "media",
+            "alta",
+            "urgente"
+        ],
+        "STATUS": [
+            "novo",
+            "em_andamento",
+            "aguardando_cliente",
+            "resolvido",
+            "fechado"
+        ]
+    },
+    "SURVEYS": {
+        "ENABLED": true,
+        "TRIGGER": "ticket_resolved",
+        "QUESTIONS": [
+            "satisfaction",
+            "resolution_time",
+            "agent_rating",
+            "comments"
+        ]
+    }
+} 

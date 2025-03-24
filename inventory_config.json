@@ -1,0 +1,50 @@
+{
+    "STOCK_MANAGEMENT": {
+        "ENABLED": true,
+        "LOW_STOCK_THRESHOLD": 5,
+        "OUT_OF_STOCK_THRESHOLD": 0,
+        "ENABLE_BACKORDER": false,
+        "ENABLE_PREORDER": true,
+        "ENABLE_WAITLIST": true,
+        "ENABLE_NOTIFICATION": true,
+        "NOTIFICATION_EMAIL": "reachthepodiumbrand@gmail.com"
+    },
+    "WAREHOUSE": {
+        "PRINCIPAL": {
+            "NAME": "CD Principal",
+            "ADDRESS": "Rua Exemplo, 123",
+            "CITY": "São Paulo",
+            "STATE": "SP",
+            "ZIP_CODE": "00000-000",
+            "PHONE": "(11) 1234-5678",
+            "EMAIL": "cd@podium-store.com"
+        },
+        "SECUNDARIO": {
+            "NAME": "CD Secundário",
+            "ADDRESS": "Rua Exemplo, 456",
+            "CITY": "Rio de Janeiro",
+            "STATE": "RJ",
+            "ZIP_CODE": "11111-111",
+            "PHONE": "(21) 8765-4321",
+            "EMAIL": "cd2@podium-store.com"
+        }
+    },
+    "SUPPLIERS": [
+        {
+            "NAME": "Fornecedor 1",
+            "CONTACT": "João Silva",
+            "EMAIL": "joao@fornecedor1.com",
+            "PHONE": "(11) 9876-5432",
+            "ADDRESS": "Rua Fornecedor, 789",
+            "CITY": "São Paulo",
+            "STATE": "SP",
+            "ZIP_CODE": "22222-222"
+        }
+    ],
+    "INVENTORY_REPORTS": {
+        "DAILY_REPORT": true,
+        "WEEKLY_REPORT": true,
+        "MONTHLY_REPORT": true,
+        "REPORT_EMAIL": "inventory@podium-store.com"
+    }
+} 

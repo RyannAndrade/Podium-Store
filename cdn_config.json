@@ -1,0 +1,15 @@
+{
+    "CDN_ENABLED": true,
+    "CDN_DOMAIN": "cdn.podium-store.com",
+    "CDN_SSL": true,
+    "CDN_CACHE_CONTROL": "public, max-age=31536000",
+    "CDN_HEADERS": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type"
+    },
+    "CDN_ORIGINS": [
+        "https://www.podium-store.com",
+        "https://podium-store.herokuapp.com"
+    ]
+} 

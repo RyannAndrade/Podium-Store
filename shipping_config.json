@@ -1,0 +1,42 @@
+{
+    "CORREIOS": {
+        "CEP_ORIGEM": "00000-000",
+        "CODIGO_EMPRESA": "XXXXXXXX",
+        "SENHA": "XXXXXXXX",
+        "SERVICOS": [
+            "PAC",
+            "SEDEX",
+            "SEDEX10",
+            "SEDEX12"
+        ],
+        "PRAZO_ENTREGA": {
+            "PAC": 5,
+            "SEDEX": 3,
+            "SEDEX10": 1,
+            "SEDEX12": 1
+        }
+    },
+    "JADLOG": {
+        "CODIGO_CLIENTE": "XXXXXXXX",
+        "SENHA": "XXXXXXXX",
+        "SERVICOS": [
+            "JADLOG_PACKAGE",
+            "JADLOG_COM",
+            "JADLOG_RODOVIARIO"
+        ]
+    },
+    "AZUL": {
+        "CODIGO_CLIENTE": "XXXXXXXX",
+        "SENHA": "XXXXXXXX",
+        "SERVICOS": [
+            "AZUL_ECONOMICO",
+            "AZUL_PRIORITARIO"
+        ]
+    },
+    "FRETE_GRATIS": {
+        "VALOR_MINIMO": 299.90,
+        "CEP_ORIGEM": "00000-000",
+        "CEP_DESTINO": ["00000-000", "11111-111"],
+        "PRODUTOS_GRATIS": ["PRODUTO1", "PRODUTO2"]
+    }
+} 

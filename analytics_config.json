@@ -1,0 +1,38 @@
+{
+    "GOOGLE_ANALYTICS": {
+        "TRACKING_ID": "UA-XXXXXXXXX-X",
+        "ANONYMIZE_IP": true,
+        "SEND_PAGEVIEW": true,
+        "ENHANCED_ECOMMERCE": true,
+        "CUSTOM_DIMENSIONS": {
+            "USER_TYPE": 1,
+            "USER_LEVEL": 2
+        }
+    },
+    "FACEBOOK_PIXEL": {
+        "PIXEL_ID": "XXXXXXXXXXXXX",
+        "ENABLE_AUTOMATIC_EVENTS": true,
+        "CUSTOM_EVENTS": [
+            "Purchase",
+            "AddToCart",
+            "InitiateCheckout",
+            "ViewContent"
+        ]
+    },
+    "HOTJAR": {
+        "SITE_ID": "XXXXXXXX",
+        "HOTJAR_VERSION": 6
+    },
+    "INTERCOM": {
+        "APP_ID": "XXXXXXXX",
+        "ENABLE_MESSENGER": true
+    },
+    "MIXPANEL": {
+        "PROJECT_TOKEN": "XXXXXXXX",
+        "ENABLE_PERSISTENCE": true
+    },
+    "SEGMENT": {
+        "WRITE_KEY": "XXXXXXXX",
+        "ENABLE_DEBUG": false
+    }
+} 

@@ -1,0 +1,11 @@
+{
+    "RATELIMIT_DEFAULT": "100 per minute",
+    "RATELIMIT_STORAGE_URL": "redis://localhost:6379/0",
+    "RATELIMIT_STRATEGY": "fixed-window",
+    "RATELIMIT_HEADERS_ENABLED": true,
+    "RATELIMIT_HEADERS": {
+        "X-RateLimit-Limit": "X-RateLimit-Limit",
+        "X-RateLimit-Remaining": "X-RateLimit-Remaining",
+        "X-RateLimit-Reset": "X-RateLimit-Reset"
+    }
+} 

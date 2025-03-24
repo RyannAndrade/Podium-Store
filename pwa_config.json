@@ -1,0 +1,35 @@
+{
+    "PWA_NAME": "PODIUM Store",
+    "PWA_SHORT_NAME": "PODIUM",
+    "PWA_DESCRIPTION": "Loja online de roupas streetwear",
+    "PWA_START_URL": "/",
+    "PWA_DISPLAY": "standalone",
+    "PWA_BACKGROUND_COLOR": "#ffffff",
+    "PWA_THEME_COLOR": "#000000",
+    "PWA_ICONS": [
+        {
+            "src": "/static/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "PWA_SPLASH_SCREEN": {
+        "image": "/static/images/splash.png",
+        "resize_mode": "contain",
+        "background_color": "#ffffff"
+    },
+    "PWA_OFFLINE_PAGE": "/offline.html",
+    "PWA_CACHE_FILES": [
+        "/",
+        "/static/css/style.css",
+        "/static/js/app.js",
+        "/static/images/logo.png",
+        "/static/images/icon-192x192.png",
+        "/static/images/icon-512x512.png"
+    ]
+} 

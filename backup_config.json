@@ -1,0 +1,11 @@
+{
+    "BACKUP_ENABLED": true,
+    "BACKUP_INTERVAL": "0 0 * * *",
+    "BACKUP_RETENTION_DAYS": 7,
+    "BACKUP_PATH": "/backups",
+    "BACKUP_FILENAME_PREFIX": "podium_backup",
+    "BACKUP_COMPRESSION": true,
+    "BACKUP_NOTIFICATION_EMAIL": "reachthepodiumbrand@gmail.com",
+    "BACKUP_S3_BUCKET": "podium-store-backups",
+    "BACKUP_S3_PATH": "daily"
+} 

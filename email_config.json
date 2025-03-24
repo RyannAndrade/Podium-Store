@@ -1,0 +1,22 @@
+{
+    "MAIL_SERVER": "smtp.gmail.com",
+    "MAIL_PORT": 587,
+    "MAIL_USE_TLS": true,
+    "MAIL_USERNAME": "reachthepodiumbrand@gmail.com",
+    "MAIL_PASSWORD": "your_app_password",
+    "MAIL_DEFAULT_SENDER": "reachthepodiumbrand@gmail.com",
+    "MAIL_MAX_EMAILS": 100,
+    "MAIL_ASCII_ATTACHMENTS": false,
+    "MAIL_TEMPLATES": {
+        "WELCOME": "welcome_email.html",
+        "ORDER_CONFIRMATION": "order_confirmation.html",
+        "PASSWORD_RESET": "password_reset.html",
+        "NEWSLETTER": "newsletter.html"
+    },
+    "MAIL_SUBJECTS": {
+        "WELCOME": "Bem-vindo à PODIUM Store!",
+        "ORDER_CONFIRMATION": "Confirmação do seu pedido na PODIUM Store",
+        "PASSWORD_RESET": "Redefinição de senha - PODIUM Store",
+        "NEWSLETTER": "Novidades da PODIUM Store"
+    }
+} 

@@ -1,0 +1,23 @@
+{
+    "CORSError": {
+        "AllowedOrigins": [
+            "http://localhost:5000",
+            "https://podium-store.herokuapp.com",
+            "https://www.podium-store.com"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE",
+            "OPTIONS"
+        ],
+        "AllowedHeaders": [
+            "Content-Type",
+            "Authorization",
+            "X-Requested-With"
+        ],
+        "ExposeHeaders": [],
+        "MaxAge": 3600
+    }
+} 

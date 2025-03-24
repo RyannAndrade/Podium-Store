@@ -1,0 +1,10 @@
+{
+    "REDIS_HOST": "localhost",
+    "REDIS_PORT": 6379,
+    "REDIS_DB": 0,
+    "REDIS_PASSWORD": null,
+    "REDIS_SSL": false,
+    "REDIS_SOCKET_TIMEOUT": 5,
+    "REDIS_SOCKET_CONNECT_TIMEOUT": 5,
+    "REDIS_RETRY_ON_TIMEOUT": true
+} 

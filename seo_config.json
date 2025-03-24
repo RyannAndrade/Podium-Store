@@ -1,0 +1,18 @@
+{
+    "SITE_NAME": "PODIUM - E-commerce de Streetwear",
+    "SITE_DESCRIPTION": "Loja online de roupas streetwear com as últimas tendências",
+    "SITE_KEYWORDS": "streetwear, moda, roupas, camisetas, calças, acessórios",
+    "SITE_AUTHOR": "PODIUM",
+    "SITE_URL": "https://www.podium-store.com",
+    "SITE_IMAGE": "https://www.podium-store.com/static/images/logo.png",
+    "SITE_TWITTER_HANDLE": "@podiumstore",
+    "SITE_FACEBOOK_PAGE": "https://www.facebook.com/podiumstore",
+    "SITE_INSTAGRAM_HANDLE": "@podiumstore",
+    "SITE_GOOGLE_ANALYTICS_ID": "UA-XXXXXXXXX-X",
+    "SITE_GOOGLE_TAG_MANAGER_ID": "GTM-XXXXXXX",
+    "SITE_GOOGLE_ADS_ID": "AW-XXXXXXXXX",
+    "SITE_GOOGLE_MAPS_API_KEY": "your_api_key",
+    "SITE_GOOGLE_SEARCH_CONSOLE_VERIFICATION": "your_verification_code",
+    "SITE_BING_VERIFICATION": "your_verification_code",
+    "SITE_YANDEX_VERIFICATION": "your_verification_code"
+} 

@@ -1,0 +1,36 @@
+{
+    "STRIPE": {
+        "PUBLIC_KEY": "pk_test_XXXXXXXXXXXXX",
+        "SECRET_KEY": "sk_test_XXXXXXXXXXXXX",
+        "WEBHOOK_SECRET": "whsec_XXXXXXXXXXXXX",
+        "CURRENCY": "BRL",
+        "ENABLE_3D_SECURE": true,
+        "ENABLE_SAVE_CARD": true,
+        "ENABLE_INSTALLMENTS": true,
+        "MAX_INSTALLMENTS": 12
+    },
+    "PAGSEGURO": {
+        "EMAIL": "reachthepodiumbrand@gmail.com",
+        "TOKEN": "your_token",
+        "SANDBOX": true,
+        "CURRENCY": "BRL",
+        "ENABLE_3D_SECURE": true,
+        "ENABLE_INSTALLMENTS": true,
+        "MAX_INSTALLMENTS": 12
+    },
+    "MERCADOPAGO": {
+        "PUBLIC_KEY": "TEST-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+        "ACCESS_TOKEN": "TEST-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+        "CURRENCY": "BRL",
+        "ENABLE_3D_SECURE": true,
+        "ENABLE_INSTALLMENTS": true,
+        "MAX_INSTALLMENTS": 12
+    },
+    "PAYPAL": {
+        "CLIENT_ID": "XXXXXXXXXXXXX",
+        "CLIENT_SECRET": "XXXXXXXXXXXXX",
+        "MODE": "sandbox",
+        "CURRENCY": "BRL",
+        "ENABLE_SAVE_CARD": true
+    }
+} 

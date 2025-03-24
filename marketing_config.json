@@ -1,0 +1,69 @@
+{
+    "EMAIL_MARKETING": {
+        "PLATFORM": "mailchimp",
+        "API_KEY": "your_api_key",
+        "LIST_ID": "your_list_id",
+        "TEMPLATES": {
+            "WELCOME": "welcome_series",
+            "ABANDONED_CART": "abandoned_cart",
+            "ORDER_CONFIRMATION": "order_confirmation",
+            "NEWSLETTER": "newsletter"
+        },
+        "AUTOMATION": {
+            "ENABLED": true,
+            "TRIGGERS": [
+                "welcome_series",
+                "abandoned_cart",
+                "order_confirmation",
+                "product_review"
+            ]
+        }
+    },
+    "SOCIAL_MEDIA": {
+        "FACEBOOK": {
+            "PAGE_ID": "your_page_id",
+            "APP_ID": "your_app_id",
+            "APP_SECRET": "your_app_secret",
+            "ENABLE_SHOP": true
+        },
+        "INSTAGRAM": {
+            "BUSINESS_ACCOUNT_ID": "your_account_id",
+            "ACCESS_TOKEN": "your_access_token",
+            "ENABLE_SHOP": true
+        },
+        "TIKTOK": {
+            "BUSINESS_CENTER_ID": "your_center_id",
+            "ACCESS_TOKEN": "your_access_token",
+            "ENABLE_SHOP": true
+        }
+    },
+    "GOOGLE_ADS": {
+        "CLIENT_ID": "your_client_id",
+        "CLIENT_SECRET": "your_client_secret",
+        "REFRESH_TOKEN": "your_refresh_token",
+        "CAMPAIGNS": {
+            "SEARCH": "your_search_campaign_id",
+            "DISPLAY": "your_display_campaign_id",
+            "SHOPPING": "your_shopping_campaign_id"
+        }
+    },
+    "FACEBOOK_ADS": {
+        "ACCOUNT_ID": "your_account_id",
+        "ACCESS_TOKEN": "your_access_token",
+        "PIXEL_ID": "your_pixel_id",
+        "CAMPAIGNS": {
+            "CATALOG": "your_catalog_campaign_id",
+            "RETARGETING": "your_retargeting_campaign_id"
+        }
+    },
+    "AFFILIATE_MARKETING": {
+        "ENABLED": true,
+        "PROGRAM_ID": "your_program_id",
+        "COMMISSION_RATE": 0.10,
+        "COOKIE_DURATION": 30,
+        "PLATFORMS": [
+            "affiliate_platform_1",
+            "affiliate_platform_2"
+        ]
+    }
+} 

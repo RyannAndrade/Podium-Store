@@ -1,0 +1,14 @@
+{
+    "NEW_RELIC_LICENSE_KEY": "your_license_key",
+    "NEW_RELIC_APP_NAME": "podium-store",
+    "NEW_RELIC_DISTRIBUTED_TRACING_ENABLED": true,
+    "NEW_RELIC_TRANSACTION_TRACER_ENABLED": true,
+    "NEW_RELIC_ERROR_COLLECTOR_ENABLED": true,
+    "NEW_RELIC_BROWSER_MONITORING_ENABLED": true,
+    "PAPERTRAIL_HOST": "logs.papertrailapp.com",
+    "PAPERTRAIL_PORT": 12345,
+    "UPTIMEROBOT_API_KEY": "your_api_key",
+    "UPTIMEROBOT_MONITOR_URL": "https://www.podium-store.com",
+    "UPTIMEROBOT_CHECK_INTERVAL": 300,
+    "UPTIMEROBOT_ALERT_CONTACTS": ["reachthepodiumbrand@gmail.com"]
+} 
